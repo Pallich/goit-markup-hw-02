@@ -1,24 +1,28 @@
-
 :root {
-    --prymary-text-color: #212121;
-    --prymary-bg-color: #FFFFFF;
-    --active-color: #2196F3;
-}
-
-.logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  --prymary-text-color: #212121;
+  --prymary-bg-color: #ffffff;
+  --active-color: #2196f3;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    width: 500;
+  font-family: Roboto, sans-serif;
+  width: 500;
 }
 
-nav {
-    font-size: 14px;
-    line-height: 1.14;
+header {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.nav-list {
+  text-decoration: none;
 }
