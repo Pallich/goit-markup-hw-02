@@ -7,6 +7,7 @@
 body {
   font-family: Roboto, sans-serif;
   width: 500;
+  color: var(--prymary-text-color);
 }
 
 header {
@@ -21,8 +22,33 @@ header {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: var(--prymary-text-color);
 }
 
-.nav-list {
+.logo .logo-color {
+  color: var(--active-color);
+}
+
+.list {
+  list-style: none;
+}
+
+header a,
+footer a {
   text-decoration: none;
+}
+
+.header-contacts {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.navigation-disactive a {
+  color: var(--prymary-text-color);
+}
+
+.navigation-active a {
+  color: var(--active-color);
 }
