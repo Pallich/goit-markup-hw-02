@@ -92,7 +92,7 @@ footer a {
   color: #757575;
 }
 
-footer-adress {
+.footer-adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -100,9 +100,14 @@ footer-adress {
   color: #ffffff;
 }
 
-footer-contacts {
+.footer-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer adress {
+  background-color: #2f303a; /* Временная запись чтоб было видно текст контактов футера*/
 }
