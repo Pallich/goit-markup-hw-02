@@ -52,3 +52,25 @@ footer a {
 .navigation-active a {
   color: var(--active-color);
 }
+
+.filter button {
+  font-size: 16px;
+  line-height: 1.63;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-width: 0px;
+}
+
+.filter-active button {
+  font-size: 16px;
+  line-height: 1.63;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--active-color);
+  border-radius: 4px;
+  border-width: 0px;
+}
