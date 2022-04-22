@@ -33,6 +33,11 @@ header {
   list-style: none;
 }
 
+.border li {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 header a,
 footer a {
   text-decoration: none;
@@ -106,6 +111,7 @@ footer a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a; /* Временная запись чтоб было видно текст контактов футера*/
 }
 
 footer adress {
