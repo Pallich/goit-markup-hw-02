@@ -6,6 +6,7 @@
   --header-contacts: #757575;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --button-background: #f5f4fa;
+  --footer-background: #2f303a;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   color: var(--prymary-text-color);
   background-color: var(--prymary-bg-color);
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .contact.list {
@@ -31,12 +33,27 @@ body {
   color: var(--prymary-text-color);
 }
 
-.logo .logo-color {
+.logo {
   color: var(--active-color);
+}
+
+.logo-color {
+  color: var(--prymary-text-color);
+}
+
+.logo-color-second {
+  color: var(--prymary-bg-color);
 }
 
 .list {
   list-style: none;
+}
+
+.list .button,
+.list .button.active {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
 .border {
@@ -44,7 +61,7 @@ body {
   box-sizing: border-box;
 }
 
-.clear {
+.link {
   text-decoration: none;
   font-style: normal;
 }
@@ -116,6 +133,11 @@ body {
 }
 
 /* footer */
+
+.footer-bgc {
+  background-color: var(--footer-background);
+}
+
 .footer-adress {
   font-weight: 400;
   font-size: 14px;
@@ -130,10 +152,18 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
-  background-color: #2f303a; /* Временная запись чтоб было видно текст контактов футера*/
 }
 
-footer address {
-  /* Временная запись чтоб было видно текст контактов футера */
-  background-color: #2f303a; /* Временная запись чтоб было видно текст контактов футера*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
