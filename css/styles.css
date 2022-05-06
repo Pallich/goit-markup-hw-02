@@ -2,6 +2,7 @@
   --prymary-text-color: #212121;
   --prymary-bg-color: #ffffff;
   --active-color: #2196f3;
+  --hero-button-hover: #188ce8;
   --border-color: #eeeeee;
   --header-contacts: #757575;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
@@ -212,10 +213,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--prymary-bg-color);
-  color: var(
-    --prymary-text-color
-  ); /* Узнать у ментора почему не нужна данная запись (текста же тогда не видно) ????????????????????7 */
+  background-color: var(--hero-button-hover);
 }
 
 /* Benefits */
